@@ -1,0 +1,20 @@
+﻿<Window x:Class="svoya_igra.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:svoya_igra"
+        mc:Ignorable="d"
+        Title="Своя игра" Height="450" Width="800" Background="#FF3234A5">
+    <Grid RenderTransformOrigin="0.5,0.5">
+        <Label Content="Введите количество игроков:" HorizontalAlignment="Left" Margin="40,155,0,0" VerticalAlignment="Top" Height="45" Width="340" FontSize="24"/>
+        <Label Content="СВОЯ ИГРА" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="111" Width="386" FontSize="72" FontFamily="Bahnschrift"/>
+        <ComboBox Name="combo1"  HorizontalAlignment="Left" Margin="385,155,0,0" VerticalAlignment="Top" Width="368" Height="45">
+            <MenuItem FontSize="24" Header="1"/>
+            <MenuItem FontSize="24" Header="2"/>
+            <MenuItem FontSize="24" Header="3"/>
+            <MenuItem FontSize="24" Header="4"/>
+        </ComboBox>
+        <Button Content="Начать" FontSize="48" HorizontalAlignment="Center" Margin="0,321,0,0" VerticalAlignment="Top" Height="85" Width="300" Click="Button_Click"/>
+    </Grid>
+</Window>

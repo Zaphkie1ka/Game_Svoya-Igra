@@ -1,0 +1,14 @@
+﻿<Window x:Class="svoya_igra.Question"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:svoya_igra"
+        mc:Ignorable="d"
+        Title="Question" Height="450" Width="800" Background="#FF622ED8">
+    <Grid>
+        <Label Content="" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="199" Width="780" FontSize="24"/>
+        <Button Content="Узнать ответ" HorizontalAlignment="Left" Margin="10,364,0,0" VerticalAlignment="Top" Height="60" Width="310" FontSize="20"/>
+        <Label Content="" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="325,364,0,0" VerticalAlignment="Top" Height="60" Width="465"/>
+    </Grid>
+</Window>
