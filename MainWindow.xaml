@@ -15,6 +15,6 @@
             <MenuItem FontSize="24" Header="3"/>
             <MenuItem FontSize="24" Header="4"/>
         </ComboBox>
-        <Button Content="Начать" FontSize="48" HorizontalAlignment="Center" Margin="0,321,0,0" VerticalAlignment="Top" Height="85" Width="300" Click="Button_Click"/>
+        <Button Content="Начать" FontSize="48" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Top" Height="85" Width="300" Click="Button_Click"/>
     </Grid>
 </Window>
