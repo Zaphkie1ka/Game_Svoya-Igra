@@ -211,11 +211,13 @@
         <Label Content="СВОЯ" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="189" Width="550" FontSize="150"/>
         <Label Content="ИГРА" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,158,0,0" VerticalAlignment="Top" Height="189" Width="550" FontSize="150"/>
         <Label Content="Игроков:" HorizontalAlignment="Left" Margin="10,365,0,0" VerticalAlignment="Top" Height="84" Width="218" FontSize="48"/>
-        <Label Name="label1" Content="" HorizontalAlignment="Left" Margin="228,365,0,0" VerticalAlignment="Top" Height="85" Width="94" FontSize="48"/>
+        <Label Name="label1" Content="" HorizontalAlignment="Left" Margin="228,365,0,0" VerticalAlignment="Top" Height="85" Width="166" FontSize="48"/>
         <Label Content="IT" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="565,10,0,0" VerticalAlignment="Top" Height="143" Width="245" FontSize="48" FontWeight="Bold"/>
         <Label Content="Компы" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="565,158,0,0" VerticalAlignment="Top" Height="143" Width="245" FontSize="48" FontWeight="Bold"/>
         <Label Content="Авторы" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="565,306,0,0" VerticalAlignment="Top" Height="143" Width="245" FontSize="48" FontWeight="Bold"/>
         <Label Content="ЯП" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="565,454,0,0" VerticalAlignment="Top" Height="143" Width="245" FontSize="48" FontWeight="Bold"/>
         <Label Content="Что-то" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="565,602,0,0" VerticalAlignment="Top" Height="143" Width="245" FontSize="48" FontWeight="Bold"/>
+        <Label Content="" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="228,469,0,0" VerticalAlignment="Top" Height="84" Width="166" FontSize="48"/>
+        <Label Content="Очков:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,469,0,0" VerticalAlignment="Top" Height="84" Width="213" FontSize="48"/>
     </Grid>
 </Window>

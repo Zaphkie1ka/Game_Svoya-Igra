@@ -19,15 +19,18 @@ namespace svoya_igra
     {
         private string Vopros {get;set;}
         private string Answer {get;set;}
-        public Question(string vopros, string answer)
+        private int Point { get;set;}
+        public Question(string vopros, string answer, int point)
         {
             InitializeComponent();
             Titl.Text = vopros;
             Answer = answer;
+            Point = point;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            point.Content = Point;
             Otvet.Content = Answer;
         }
     }

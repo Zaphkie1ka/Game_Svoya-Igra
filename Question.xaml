@@ -8,7 +8,8 @@
         Title="Question" Height="450" Width="800" Background="#FF622ED8">
     <Grid>
         <Button Content="Узнать ответ" HorizontalAlignment="Left" Margin="10,364,0,0" VerticalAlignment="Top" Height="60" Width="310" FontSize="20" Click="Button_Click"/>
-        <Label Name="Otvet"  HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="325,364,0,0" VerticalAlignment="Top" Height="60" Width="465"/>
+        <Label Name="Otvet"  HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="325,364,0,0" VerticalAlignment="Top" Height="60" Width="465" FontSize="36"/>
         <TextBlock Name="Titl" TextAlignment="Center" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap"  VerticalAlignment="Center" Height="207" Width="780" FontSize="36"/>
+        <Label Name="point" Content="" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="574,331,0,0" VerticalAlignment="Top" Height="28" Width="216" FontSize="18"/>
     </Grid>
 </Window>
